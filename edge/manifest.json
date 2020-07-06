@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "文章複製",
+  "version": "1.2",
+
+  "description": "文章複製",
+
+  "icons": {
+    "48": "icon/copy.png"
+  },
+
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "contextMenus",
+    "tabs",
+    "storage"
+  ],
+
+  // "applications": {
+  //   "gecko": {
+  //     "id": "tacolin@pcman.copy"
+  //   }
+  // },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "commands": {
+    "title-special": {
+      "suggested_key": {
+        "default": "Alt+Q"
+      },
+      "description": "title-special"
+    },
+    "align-only": {
+      "suggested_key": {
+        "default": "Alt+Shift+Q"
+      },
+      "description": "align-only"
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icon/copy.png"
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["copy.js"]
+    }
+  ]
+}

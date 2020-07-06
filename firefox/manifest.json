@@ -1,0 +1,57 @@
+{
+  "manifest_version": 2,
+  "name": "文章複製",
+  "version": "2.5.5",
+
+  "description": "文章複製",
+
+  "icons": {
+    "48": "icon/copy.png"
+  },
+
+  "permissions": [
+    "clipboardWrite",
+    "contextMenus",
+    "tabs",
+    "storage"
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "tacolin@pcman.copy"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "commands": {
+    "align-only": {
+      "suggested_key": {
+        "default": "Alt+Q"
+      }
+    },
+
+    "title-special": {
+      "suggested_key": {
+        "default": "Ctrl+Q"
+      }
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icon/copy.png"
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["copy.js"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+
+    <form>
+        <div><label>PCMAN每行最大字元數: </label><input type="number" min="10" id="pcman_line_size" ></div>
+        <div><label>每行前置空白字元數: </label><input type="number" id="line_head_insert_spaces" ></div>
+        <div><label>較寬的行距: </label><input type="checkbox" id="wide_line_interval" ></div>
+        <div><label>標題最大字元數: </label><input type="number" min="2" id="title_size" ></div>
+        <div><label>標題與正文間插入的換行數量: </label><input type="number" id="newline_num" ></div>
+        <div><label>自動更換的特殊字串: </label></div>
+        <div><label>格式為 (a,b);(c,d) 會把 a 自動換成 b，把 c 自動換成 d </label></div>
+        <div><textarea rows="6" cols="70" id="special_pattern" ></textarea></div>
+        <div><button type="submit">儲存</button></div>
+        <div></div>
+    </form>
+
+    <script src="options.js"></script>
+
+  </body>
+
+</html>
