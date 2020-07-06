@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Privacy Policy 
 
-You can use the [editor on GitHub](https://github.com/tacolin/pcman_copy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+We DO NOT use your personal data to improve the service.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We DO NOT collect any information.
 
-### Markdown
+This extension DO NOT send anything to anywhere.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+NO Cookies.
 
-```markdown
-Syntax highlighted code block
+All operation is done at your local machine (browser).
 
-# Header 1
-## Header 2
-### Header 3
+Only affected thing is your clipboard content.
 
-- Bulleted
-- List
+You can check it easily by pasting to notepad.
 
-1. Numbered
-2. List
+### What does this extension do?
 
-**Bold** and _Italic_ and `Code` text
+This extension pcman_copy (文章複製) do:
 
-[Link](url) and ![Image](src)
-```
+- Copy the selected text to the clipboard
+- Read the clipboard text
+- Formating the text and replace some un-fit charactors
+- Write(change) the changed text to your cliboard
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Normal ctrl+c or copy DO NOT trigger this extension.
 
-### Jekyll Themes
+Only click the extension button or using the extension shortcuts will trigger action.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tacolin/pcman_copy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Source code
 
-### Support or Contact
+The source code of this extension is here ( https://github.com/tacolin/pcman_copy )
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can check them by yourself.
+
+### Contact Me
+
+If you have any questions about this Privacy Policy, You can contact us:
+
+- By email: potegrant@yahoo.com.tw
+- By github
